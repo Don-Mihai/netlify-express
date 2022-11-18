@@ -1,0 +1,145 @@
+.sign__modal_form {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 0 60px;
+  flex-shrink: 1;
+
+  &-title {
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 36px;
+    font-weight: 900;
+    color: rgb(231, 233, 234);
+  }
+
+  &-wrapper {
+    position: relative;
+  
+    input {
+      width: 100%;
+    }
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .warning {
+    border-color: rgb(197, 0, 0) !important;
+    box-shadow: 1px 1px 0 0 rgb(196, 7, 7) !important ;
+  }
+  
+  &-input {
+    height: 56px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(51, 54, 57);
+    border-radius: 4px;
+    background-color: #000000;
+    color: white;
+    font-size: 1rem;
+
+    &:focus {
+      border-color: rgb(29, 155, 240);
+      color:rgb(29, 155, 240);
+      box-shadow: 1px 1px 0 0 rgb(29, 155, 240) ;
+    }
+
+    
+    
+    &-clear {
+      position: absolute;
+      top:16px;
+      right: 10px;
+      cursor: pointer;
+    }
+  }
+
+  &-content {
+    margin-top: 24px;
+
+    &-title {
+      color: rgb(231, 233, 234);
+      font-weight: 700;
+      line-height: 20px;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }  
+
+    &-text {
+      line-height: 1rem;
+      font-size: 14px;
+      color: rgb(113, 118, 123);
+      margin-bottom: 4px;
+      font-weight: 400;
+    }
+  }
+
+  &-birthdate {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+
+    .label {
+      position: absolute;
+      color: rgb(113, 118, 123);
+      line-height: 16px;
+      font-weight: 400;
+      font-size: 13px;
+      left: 10px;
+      padding-top: 8px;
+    }
+    &-wrapp {
+      display: inline;
+      position: relative;
+    }
+
+    select {
+      border: 1px solid rgb(51, 54, 57);
+      border-radius: 4px;
+      background-color: #000000;
+      color: rgb(231, 233, 234);
+      cursor: pointer;
+      padding-top: 16px;
+      padding-bottom: 8px;
+      padding-left: .5rem;
+      padding-right: 1rem;
+    }
+    &-sector1 {
+      width: 190px;
+      height: 60px;
+      margin-right: 12px;
+      
+      &:focus {
+        border-color: rgb(29, 155, 240);
+        color:rgb(29, 155, 240);
+      }
+    }
+
+    &-sector2 {
+      width: 91px;
+      height: 60px;
+      margin-right: 12px;
+      
+      &:focus {
+        border-color: rgb(29, 155, 240);
+        color:rgb(29, 155, 240);
+      }
+    }
+
+    &-sector3 {
+      width: 113px;
+      height: 60px;
+      
+      &:focus {
+        border-color: rgb(29, 155, 240);
+        color:rgb(29, 155, 240);
+      }
+    }
+  }
+}

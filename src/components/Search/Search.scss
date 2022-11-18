@@ -1,0 +1,34 @@
+.home-aside__wrapper {
+  display: flex;
+  position: relative;
+  border-radius: 22px;
+  box-sizing: border-box;
+  border: 1px solid #16181c;
+
+  &:hover {
+    border: 1px solid rgb(29, 155, 240);
+  }
+  &:hover > .home-aside__icon {
+    color: rgb(29, 155, 240);
+  }
+  &:hover > .home-aside__search {
+    background-color: #000000;
+    color:rgb(29, 155, 240) ;
+  }
+}
+.home-aside__icon {
+  color: rgb(113, 118, 123);
+  position: absolute;
+  top: 10px;
+  margin-left: 16px;
+}
+.home-aside__search {
+  background-color: #16181c;
+  border: none;
+  padding: 0 3rem;
+  font-size: 1.2rem;
+  border-radius: 22px;
+  width: 100%;
+  height: 44px;
+  color: rgb(113, 118, 123);
+}

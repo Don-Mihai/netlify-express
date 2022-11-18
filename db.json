@@ -1,0 +1,133 @@
+{
+  "posts": [
+    {
+      "body": "111111",
+      "idUser": 1,
+      "id": 1
+    },
+    {
+      "body": "32423423",
+      "idUser": 1,
+      "id": 2
+    },
+    {
+      "body": "121212",
+      "idUser": 1,
+      "id": 3
+    },
+    {
+      "body": "qwerty",
+      "idUser": 2,
+      "img": {},
+      "id": 6
+    },
+    {
+      "body": "qqqqqqqq",
+      "idUser": 2,
+      "img": {},
+      "id": 7
+    },
+    {
+      "body": "111111111111",
+      "idUser": 2,
+      "imgUrl": "/1667122638426-by-isaac-yeram-kim-samurai-samurai-so-spiny-vorota-torii-pli.jpg",
+      "id": 8
+    },
+    {
+      "body": "qqqqq",
+      "idUser": 2,
+      "id": 9
+    },
+    {
+      "body": "eeee",
+      "idUser": 2,
+      "id": 10
+    },
+    {
+      "body": "tt",
+      "idUser": 2,
+      "imgUrl": "/1667123191209-117684-arhitektura-muzyka-atmosfera-metropoliya-illustracia-1920x1080.jpg",
+      "id": 11
+    },
+    {
+      "body": "yyy",
+      "idUser": 2,
+      "imgUrl": "/1667123199344-by-isaac-yeram-kim-samurai-samurai-so-spiny-vorota-torii-pli.jpg",
+      "id": 12
+    },
+    {
+      "body": "test",
+      "idUser": 2,
+      "imgUrl": "/1667126178679-by-isaac-yeram-kim-samurai-samurai-so-spiny-vorota-torii-pli.jpg",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "name": "Тирион",
+      "phone": "00000000",
+      "month": "Март",
+      "day": "19",
+      "year": "2000",
+      "login": "admin",
+      "password": "admin",
+      "email": "admin@admin.ru",
+      "role": "ADMIN",
+      "id": 1,
+      "userBackground": "https://wallpaperaccess.com/full/16677.jpg",
+      "imgUrl": "/1667641623144-300px-Samurai_with_sword.jpg",
+      "backgroundUrl": "/1667641634536-028.jpg"
+    },
+    {
+      "name": "Дионнv",
+      "phone": "999999998",
+      "month": "",
+      "day": "17",
+      "year": "1998",
+      "login": "admin1",
+      "password": "admin1",
+      "email": "admin1@mail.ru",
+      "id": 2,
+      "imgUrl": "/1667639809611-base_87716f252d.jpg",
+      "userBackground": "",
+      "backgroundUrl": "/1667641097302-117684-arhitektura-muzyka-atmosfera-metropoliya-illustracia-1920x1080.jpg"
+    }
+  ],
+  "likes": [
+    {
+      "idUser": 1,
+      "idPost": 13,
+      "id": 4
+    },
+    {
+      "idUser": 1,
+      "idPost": 10,
+      "id": 5
+    },
+    {
+      "idUser": 2,
+      "idPost": 11,
+      "id": 7
+    },
+    {
+      "idUser": 2,
+      "idPost": 12,
+      "id": 9
+    },
+    {
+      "idUser": 2,
+      "idPost": 13,
+      "id": 10
+    }
+  ],
+  "bookmarks": [
+    {
+      "idUser": 2,
+      "idPost": 13,
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

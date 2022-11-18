@@ -1,0 +1,24 @@
+.home-aside__current {
+  &-topic {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 5px;
+  }
+  
+  &-signature {
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  &-menu {
+    color: rgb(113, 118, 123);
+    font-size: 21px;
+    cursor: pointer;
+  }
+}

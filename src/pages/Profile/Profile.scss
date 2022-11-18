@@ -1,0 +1,61 @@
+$aside-width: 350px;
+$posts-width: 800px;
+$avatar-size: 120px;
+$background-height: 250px;
+
+.profile {
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  color: white;
+	background-color: #000;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-left: 20px;
+    padding: 5px 0;
+    font-size: 36px;
+  }
+
+  &__email {
+    margin-left: 20px;
+    font-size: 22px;
+    color: grey;
+  }
+
+  &__background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: $background-height;
+    margin-bottom: $avatar-size/2;
+    background-color: aquamarine;
+    overflow: hidden;
+
+    &-img {
+      height: auto;
+      width: 100%;
+      position: absolute;
+    }
+  }
+
+  &__avatar-wrap {
+    position: absolute;
+    top: $background-height - $avatar-size/2 + 40px;
+    margin-left: 20px;
+
+  }
+
+  &__main {
+    width: $aside-width + $posts-width;
+		border-right: 1px solid grey;
+		border-left: 1px solid grey;
+}
+
+}

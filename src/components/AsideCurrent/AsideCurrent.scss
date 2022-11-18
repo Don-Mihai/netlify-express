@@ -1,0 +1,21 @@
+.home-aside__current {
+  width: 100%;
+  min-height: 800px;
+  margin-top: 1.5rem;
+  border: 1px solid #16181c;
+  background-color: #16181c;
+  border-radius: 22px;
+  padding: .75rem 1.5rem;
+
+  &-title {
+    font-weight: bold;
+    font-size: 21px;
+  }
+
+  &-wrapper {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}

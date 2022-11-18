@@ -1,0 +1,54 @@
+.modules-navigation {
+	position: sticky;
+	top: 0;
+	height: 500px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	padding: 30px 20px 0 0;
+
+	&__svg {
+		height: 45px;
+		fill: white;
+		margin-bottom: 20px;
+    transition: .3s ease-out;
+
+		&:hover {
+			fill: rgb(29, 155, 240);
+		}
+	}
+
+	&__btn-twit {
+		width: 220px;
+		background-color: rgb(29, 155, 240);
+		color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: 1px solid #000;
+
+		&:hover {
+			border: 1px solid rgb(29, 155, 240);
+			background-color: #000;
+		}
+	}
+
+	.nav-list__link {
+		width: 220px;
+		height: 44px;
+		padding: 0 1rem;
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		border: 1px solid #000;
+		border-radius: 22px;
+
+
+		&:hover {
+			border: 1px solid rgb(29, 155, 240);
+			background-color: #16181c;
+			color: rgb(29, 155, 240);
+		}
+	}
+}

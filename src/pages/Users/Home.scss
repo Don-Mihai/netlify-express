@@ -1,0 +1,31 @@
+.users {
+	width: 98vw;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	color: white;
+	background-color: #000;
+
+	&__posts {
+		height: 100%;
+		width: 800px;
+		border-right: 1px solid grey;
+		border-left: 1px solid grey;
+		padding-top: 10px;
+
+
+		&-option {
+			align-self: flex-end;
+		}
+
+		&-wrapper {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			border-bottom: 1px solid gray;
+			padding: 25px 10px;
+
+		}
+	}
+	
+}

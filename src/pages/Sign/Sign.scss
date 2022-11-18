@@ -1,0 +1,177 @@
+$color-sign: #000;
+$color-content: #d6d9db;
+
+.sign {
+  height: 100%;
+  background: $color-sign;
+  flex: 1;
+
+  &__container {
+    display: flex;
+    min-height: 90%;
+  }
+
+  &__img {
+    width: 55%;
+    display: flex;
+    background-image: url(./img/sign__bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__content {
+    width: 45%;
+    padding: 16px;
+  }
+
+  &__wrapper {
+    padding: 20px;
+    min-width: 437px;
+    max-width: 760px;
+    color: $color-content;
+  }
+
+  &__title {
+    font-size: 4.5rem;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    &-second {
+      margin-bottom: 1rem;
+      font-size: 2.5rem;
+    }
+  }
+  
+  &__svg {
+
+    &_primory {
+      height: 349px;
+      fill: white;
+      margin: auto;
+    }
+
+    &_seccond {
+      height: 45px;
+      fill: $color-content;
+    }
+  }
+
+  .dash {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  &__dash {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    max-width: 380px;
+    width: 320px;
+    margin-left: -4px;
+    margin-right: -4px;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+
+    .left {
+      background-color: rgb(47, 51, 54);
+      height: 1px;
+      width: 139px;
+    }
+
+    .right {
+      background-color: rgb(47, 51, 54);
+      height: 1px;
+      width: 139px;
+    }
+
+    .sign__and_wrapp {
+
+      .sign__and {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  &__btn-signup {
+    border-color: rgba(0, 0, 0, 0) !important;
+    background-color: rgb(29, 155, 240) !important;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    font-size: 15.5px;
+    line-height: 19px;
+    font-weight: 700;
+    padding: 0 1rem;
+  }
+
+  &__privacy_wrapp {
+    width: 300px;
+    color: rgb(113, 118, 123);
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 6px;
+
+    span {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .sign__privacy-link {
+      color: rgb(29, 155, 240);
+      cursor: pointer;
+    }
+
+    & a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__registr {
+    margin-top: 40px;
+    max-width: 380px;
+
+    &-title {
+      color: rgb(231, 233, 234);
+      font-size: 17px;
+      margin-bottom: 20px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: .6px;
+    }
+
+    &-btn {
+      border: 1px solid rgb(83, 100, 113) !important;
+      background-color: rgba(0, 0, 0, 0) !important;
+      font-weight: 700;
+      cursor: pointer;
+      outline-style: none;
+      width: 300px;
+      height: 40px;
+      margin-bottom: 8px;
+      padding-left: 16px;
+      padding-right: 16px;
+      color: rgb(29, 155, 240) !important;
+      background: linear-gradient(to left, rgba(0, 0, 0, 0) 50%, rgba(29, 155, 240, 0.1) 50%) right;
+      background-size: 200%;
+      transition: .5s ease-out;
+
+      &:hover {
+        background-position: left;
+      }
+    }
+  }
+  &__footer {
+    &-nav {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 12px 1.5rem;
+      -webkit-box-pack: center;
+      justify-content: center;
+    }
+  }
+}
